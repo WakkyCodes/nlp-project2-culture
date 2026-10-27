@@ -1,0 +1,19 @@
+
+pandas==2.2.2
+numpy==1.26.4
+
+
+
+
+nltk==3.9.1
+regex==2024.5.15
+
+
+matplotlib>=3.9.2
+seaborn==0.13.2
+
+scipy>=1.15
+
+# --- Reproducibility / dev helpers ---
+tqdm==4.66.4
+pyyaml==6.0.1

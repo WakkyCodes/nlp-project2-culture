@@ -1,0 +1,174 @@
+# config/political_lexicon.yaml
+#
+# 19th-century isiXhosa political lexicon for Project 2.
+# Grouped by theme. Case-insensitive matching; OCR-tolerant variants are
+# listed alongside their canonical form. Every term was cross-checked against
+# the OCR'd corpus and historical usage (newspapers, chiefly discourse,
+# phrasebooks). Extend by appending variants to the relevant list.
+#
+# Glosses are for audit only — they are not used in scoring.
+
+version: "0.2.0"
+compiled_by: "Wakhiwe N"
+last_reviewed: "2026-10-26"
+
+themes:
+
+  governance_and_administration:
+    gloss: "Government, colonial administration, civil service"
+    terms:
+      - urhulumente          # government
+      - oorhulumente         # plural / OCR
+      - umlawuli             # ruler, administrator
+      - umphathi             # manager, overseer
+      - abaphathi            # overseers (pl.)
+      - umphathiswa          # government minister
+      - abaphathiswa         # ministers (pl.)
+      - ikomiti              # committee
+      - iKomiti              # capitalised variant
+      - umthetho             # law, statute
+      - imithetho            # laws (pl.)
+      - isigqeba             # council, committee
+      - indlu yowiso-mthetho # legislative assembly (calque)
+      - palamente            # parliament (loan)
+      - iparlemente          # OCR / older variant
+      - ipalamente           # common variant
+      - urhulumente wengingqi  # local government
+      - umbutho              # organisation, association
+      - imibutho             # organisations (pl.)
+
+  chiefly_authority_and_custom:
+    gloss: "Chiefs, chieftainship, custom, traditional authority"
+    terms:
+      - inkosi               # chief
+      - iinkosi              # chiefs (pl.)
+      - amakhosi             # alternative plural
+      - ubukhosi             # chieftainship
+      - inkosana             # young chief, prince
+      - umphakathi           # community, the public
+      - isiko                # custom, rite
+      - amasiko              # customs (pl.)
+      - umthetho wesintu     # customary law
+      - indaba               # council, matter for discussion
+      - iindaba              # news, matters (pl.)
+      - ubukhulu             # seniority, authority
+      - ugqirha              # traditional healer / diviner
+      - igqirha              # OCR / older spelling variant
+      - imbizo               # traditional political meeting
+      - iimbizo              # meetings (pl.)
+
+  land_and_territory:
+    gloss: "Land, territory, dispossession, location"
+    terms:
+      - ilizwe               # land, country
+      - amazwe               # lands, countries (pl.)
+      - umhlaba              # earth, land
+      - imihlaba             # lands (pl.)
+      - ilifa                # inheritance, heritage
+      - indawo               # place, location
+      - iindawo              # places (pl.)
+      - ilokishi             # location (loan, from 'location')
+      - iLocation            # English-loan variant
+      - umda                 # boundary, border
+      - imida                # boundaries (pl.)
+      - ukuthinjwa           # dispossession (nominal)
+      - ukuhluthwa           # seizure, confiscation
+      - ukuhluthwa komhlaba  # land dispossession (common collocation)
+      - umzi                 # homestead (political/residential unit)
+
+  law_and_justice:
+    gloss: "Courts, cases, magistrates, punishment"
+    terms:
+      - inkundla             # court
+      - iinkundla            # courts (pl.)
+      - umgwebi              # judge
+      - abagwebi             # judges (pl.)
+      - imantshi             # magistrate (loan)
+      - ityala               # case, lawsuit
+      - amatyala             # cases (pl.)
+      - isohlwayo            # punishment, fine
+      - izohlwayo            # punishments (pl.)
+      - ukubanjwa            # arrest
+      - ejele                # jail
+      - entolongweni         # in prison (locative)
+      - umthetho-siseko      # constitution (calque)
+      - umgaqo-siseko        # alternative calque for constitution
+      - uxolo                # peace
+
+  taxation_and_economy:
+    gloss: "Taxes, tribute, trade, labour"
+    terms:
+      - irhafu               # tax
+      - iirhafu              # taxes (pl.)
+      - umrhumo              # fee, levy
+      - imirhumo             # fees (pl.)
+      - irhafu yomhlaba      # land tax
+      - irhafu yentloko      # poll tax
+      - umsebenzi            # work, labour
+      - imisebenzi           # works (pl.)
+      - ukusebenza           # to work, labouring
+      - urhwebo              # trade
+      - ukuthengisa          # selling
+      - imali                # money
+      - iiponti              # pounds (currency)
+      - iisheleni            # shillings
+
+  identity_and_peoplehood:
+    gloss: "Nation, people, race, 'native' terminology"
+    terms:
+      - isizwe               # nation, tribe
+      - izizwe               # nations (pl.)
+      - uhlanga              # nation / lineage / race (key 19th-c term)
+      - izihlanga            # plural
+      - abantu               # people
+      - umntu                # person
+      - abantu abamnyama     # Black people
+      - abamnyama            # Black people (short form)
+      - abantsundu           # dark-skinned / 'native' (important historical term)
+      - abantu abamhlophe    # white people
+      - umlungu              # white person
+      - abelungu             # white people (pl.)
+      - umAfrika             # African (person)
+      - amaAfrika            # Africans (pl.)
+      - amaXhosa             # Xhosa people
+      - amaMfengu            # Mfengu people
+      - abemi                # inhabitants, citizens
+      - ummi                 # inhabitant, citizen
+      - ubuntu               # humanity / humaneness (political-philosophical)
+      - ubuKristu            # Christianity (identity marker)
+      - ubuhedeni            # heathenism (colonial-era term)
+
+  rights_and_civic_action:
+    gloss: "Rights, voting, petitions, meetings"
+    terms:
+      - ivoti                # vote (loan)
+      - ukuvota              # to vote
+      - ukunyula             # to elect
+      - unyulo               # election
+      - imvume               # permission
+      - ilungelo             # right
+      - amalungelo           # rights (pl.)
+      - isicelo              # petition, request
+      - izicelo              # petitions (pl.)
+      - incoko               # meeting, discussion (in some contexts)
+      - indibano             # meeting, gathering
+      - iindibano            # meetings (pl.)
+      - imbizo               # traditional / political meeting
+      - iimbizo              # meetings (pl.)
+      - umbutho wabantu      # people's organisation
+      - ukuchasa             # to oppose, resistance
+      - inkululeko           # freedom
+      - ukuthatha inxaxheba  # to participate / take part
+
+# ---------------------------------------------------------------------------
+# OCR-tolerance settings
+# ---------------------------------------------------------------------------
+ocr:
+  # Case-insensitive matching is enabled by default.
+  case_insensitive: true
+  # A token also counts if it matches within edit-distance 1 of any term,
+  # which recovers most OCR substitutions of one letter. Set to 0 to disable.
+  max_edit_distance: 1
+  # Minimum token length for fuzzy matching (short terms like 'umda'
+  # would otherwise match too many words).
+  min_length_for_fuzzy: 5

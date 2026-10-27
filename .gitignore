@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Data — DO NOT commit the raw OCR corpus
+data/XhTxt/
+data/EnTxt/
+data/LanguageSplitTracker70-94.csv
+
+# Generated outputs
+results/splits/*.csv
+results/political_scores_*.csv
+results/political_controls.csv
+results/figures/*.png
+results/logs/*.log
+
+# But DO keep the directory structure
+!results/.gitkeep
+!results/splits/.gitkeep
+!results/figures/.gitkeep
+!results/logs/.gitkeep
