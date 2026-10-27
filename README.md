@@ -151,7 +151,7 @@ qualitative sample corroborates this: sampled ISIG pages contain land-grant
 tables, quit-rent records, and moral-governance commentary; sampled IMVO
 pages contain front-page advertising, subscription notices, and commerce.
 
-**Interpretation (cautious, not psychologising).** The missionary press
+**Interpretation.** The missionary press
 *lexically constructed* the isiXhosa political domain — the vocabulary of
 government, land, and law — as part of its translation project. Jabavu's
 independent, advertiser-funded paper produced a different **page
